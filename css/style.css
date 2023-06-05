@@ -1,0 +1,409 @@
+*{box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;   
+}
+
+.s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.p1{
+    font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+padding-left: 80px;
+}
+.nav1 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #F3F3F3;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a1{
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+.s2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E ;
+}
+
+.logo{
+    height: 23px;
+    padding-left: 40px;
+}
+
+.l1{    
+    list-style-image: url(../img/pawprint\ 1.png);
+    list-style-position: inside;
+    padding-left:  5px;
+    padding-right: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+
+/* fin de header, comienza el main*/
+
+.s3{
+    display: flex;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1\ \(3\).png);
+    height: 409px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;   
+
+}
+
+.articulo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.p2{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: #FFFFFF;
+    padding: 9px;
+}
+
+.p3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #3C2313;
+
+}
+
+.p4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background: #F0A83E;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.s4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p5{
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #3C2313;
+}
+
+.ul2{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.a2{
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+color: #666666;
+}
+
+.s5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.a3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:#FBFAF6 ;
+}
+
+.a3 h4{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+    padding: 0;
+    margin: 0;
+
+}
+
+.a3 p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.s6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s6 h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+}
+
+
+
+.s6 nav{
+    position: relative;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #3C2313;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    margin: 10px; 
+    padding: 10px;
+   
+}
+.s7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botongris{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #8A8787;
+    border-radius: 15px;
+    margin-right: 10px;  
+    padding: 8px 34px;  
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.botonnaranja{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #F0A83E;
+    border-radius: 15px;
+    padding: 8px 34px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+
+.s8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F0A83E;
+}
+
+.s8 article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.s8 p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.s8 nav{
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    background: #FFFFFF;
+    border-radius: 15px;
+    color: #A0A0A0;
+    padding: 15px 140px 15px 20px;
+    margin-right: 20px;
+    }
+    
+
+.s8 button{
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #3C2313;
+    border-radius: 15px; 
+    padding: 12px; 
+}
+
+.s9{
+    display: flex;
+   
+    align-items: center;
+    background-color: #3C2313;
+
+}
+
+.art1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.art2{
+    align-self: flex-start;
+    margin-left: 15px;
+    
+}
+
+.art3{
+    margin-left: 55%;    
+}
+
+.iconofinal{
+    padding: 10px;
+}
+
+.art2 h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 10px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    
+}
+
+.art2 p{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */      
+    color: #8A8787;
+    padding: 0;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222222;
+}
+
+footer p{
+    align-self: center;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
